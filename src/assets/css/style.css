@@ -1,0 +1,31 @@
+* {
+    margin: unset;
+    padding: unset;
+    text-decoration: none;
+    list-style: none;
+}
+select {
+    /* appearance: none; */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    font-size: 20px;
+}
+td {
+    font-size: 16px;
+}
+td .details {
+    cursor: pointer;
+}
+html.modal-enabled {
+    overflow: hidden !important;
+}
